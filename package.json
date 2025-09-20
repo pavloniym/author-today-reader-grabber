@@ -1,0 +1,15 @@
+{
+  "name": "author-today-reader-grabber",
+  "version": "1.0.0",
+  "main": "grabber.js",
+  "dependencies": {
+    "puppeteer": "^24.22.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "pavloniym",
+  "license": "ISC",
+  "description": ""
+}
