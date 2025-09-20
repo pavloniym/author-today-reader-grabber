@@ -12,6 +12,7 @@
 2. Авторизуйтесь на [Author.Today](https://author.today/) в обычном браузере.
 3. Экспортируйте cookies вашего браузера в файл `cookies.json` в корне проекта.
    - Проще всего сделать это через DevTools: `Application` → `Storage` → `Cookies` → скопируйте все cookie домена `author.today` и сохраните в JSON-массив.
+   - Или воспользуйтесь расширением (например, Chrome [EditThisCookie](https://chromewebstore.google.com/detail/editthiscookie/fngmhnnpilhplaeedifhccceomclgfbg)): экспортируйте cookies домена `author.today` в JSON и сохраните файл как `cookies.json`.
    - Формат файла: массив объектов в формате Puppeteer. Пример:
      ```json
      [
